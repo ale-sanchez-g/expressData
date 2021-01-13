@@ -84,6 +84,24 @@
 				"type": "mrkdwn",
 				"text": ":robot_face: *This is mind blowing* :exploding_head:"
 			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "Linked Service | \n  MSISDN 1: 61430061062 | PIN: 1378 | \n  MSISDN 2: 61430007069 | PIN: 1378 |\n  MSISDN 3: 61430007148 | PIN: 1378 |\n  MSISDN 4: 61430007154 | PIN: 1378 | ",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":robot_face: *This is mind blowing* :exploding_head:"
+			}
 		}		
 	]
 }

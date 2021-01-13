@@ -1,6 +1,13 @@
 {
-"SIMO": {
+    "SIMO": {
         "blocks": [
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "*Sim only attached* :vibration_mode:"
+                }
+            },
             {
                 "type": "section",
                 "text": {
@@ -37,8 +44,15 @@
             }
         ]
     },
-"HANDSET": {
+    "HANDSET": {
         "blocks": [
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "*HANDSET attached* :iphone:"
+                }
+            },
             {
                 "type": "section",
                 "text": {
@@ -64,47 +78,66 @@
             }
         ]
     },
-"USERNAME" : {
-    "blocks": [
-        {
-			"type": "section",
-			"text": {
-				"type": "plain_text",
-				"text": "Only to check login | \n USERNAME: kkgene22 | MSISDN:61126303641 | PIN: 1378 | PASSWORD: Password@1",
-				"emoji": true
-			}
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "plain_text",
-				"text": "USERNAME: kkgene23 | MSISDN:61126301118 | PIN: 1378 | PASSWORD: Password@1",
-				"emoji": true
-			}
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "plain_text",
-				"text": "USERNAME: kkgene24 | MSISDN:61126301199 | PIN: 1378 | PASSWORD: Password@1",
-				"emoji": true
-			}
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "plain_text",
-				"text": "USERNAME: kkgene25 | MSISDN:61126301126 | PIN: 1378 | PASSWORD: Password@1",
-				"emoji": true
-			}
-        },
-        {
-            "type": "section",
-            "text": {
-                "type": "mrkdwn",
-                "text": ":robot_face: *This is mind blowing* :exploding_head:"
+    "USERNAME": {
+        "blocks": [
+            {
+                "type": "section",
+                "text": {
+                    "type": "plain_text",
+                    "text": "Only to check login | \n USERNAME: kkgene22 | MSISDN:61126303641 | PIN: 1378 | PASSWORD: Password@1",
+                    "emoji": true
+                }
+            },
+            {
+                "type": "section",
+                "text": {
+                    "type": "plain_text",
+                    "text": "USERNAME: kkgene23 | MSISDN:61126301118 | PIN: 1378 | PASSWORD: Password@1",
+                    "emoji": true
+                }
+            },
+            {
+                "type": "section",
+                "text": {
+                    "type": "plain_text",
+                    "text": "USERNAME: kkgene24 | MSISDN:61126301199 | PIN: 1378 | PASSWORD: Password@1",
+                    "emoji": true
+                }
+            },
+            {
+                "type": "section",
+                "text": {
+                    "type": "plain_text",
+                    "text": "USERNAME: kkgene25 | MSISDN:61126301126 | PIN: 1378 | PASSWORD: Password@1",
+                    "emoji": true
+                }
+            },
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": ":robot_face: *This is mind blowing* :exploding_head:"
+                }
             }
-        }
-    ]
+        ]
+    },
+    "LINKED_SERVICES": {
+        "blocks": [
+            {
+                "type": "section",
+                "text": {
+                    "type": "plain_text",
+                    "text": "Linked Service | \n  MSISDN 1: 61430061062 | PIN: 1378 | \n  MSISDN 2: 61430007069 | PIN: 1378 |\n  MSISDN 3: 61430007148 | PIN: 1378 |\n  MSISDN 4: 61430007154 | PIN: 1378 | ",
+                    "emoji": true
+                }
+            },
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": ":robot_face: *This is mind blowing* :exploding_head:"
+                }
+            }
+        ]
     }
 }
