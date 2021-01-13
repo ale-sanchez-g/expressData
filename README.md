@@ -2,7 +2,7 @@
 
 This Repo provide a POST endpoint to connect to Slack slash commmand.
 
-This is an MVP prototype using the below Tech
+This is an Open Source prototype using the below Tech
 
 - Slack App integrations
 - Slack message builder -> https://app.slack.com/block-kit-builder/T033PJ09E
@@ -10,3 +10,7 @@ This is an MVP prototype using the below Tech
 - Heroku -> App deployment
 
 In the true spirint of innovation and agile delivery, this is an experiment.
+
+## Who it all works
+
+![givemedata](./app/img/givemedata.jpg?raw=true)
