@@ -1,5 +1,6 @@
 {
     "SIMO": {
+
             "blocks": [
                 {
                     "type": "section",
@@ -94,6 +95,13 @@
                     "type": "plain_text",
                     "text": "USERNAME: kkgene23 | MSISDN:61126301118 | PIN: 1378 | PASSWORD: Password@1",
                     "emoji": true
+                }
+            },
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "*HANDSET attached* :iphone:"
                 }
             },
             {
