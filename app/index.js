@@ -24,19 +24,26 @@ app.get('/health', function ( req, res ) {
 app.post('/', function ( req, res ) {
     
     switch(req.body.text) {
-        case "SIMO" || 'simo':
+        case "SIMO":
+        case 'simo':
             console.log('Go and get me some SIMO data mate');
             res.send(data.SIMO);
             break;
-        case 'HANDSET' || 'handset':
+        case 'HANDSET':
+        case 'handset':
             console.log('Go and get me some HANDSET data mate');
             res.send(data.HANDSET);
             break;
-        case 'USERNAME' || 'username':
+        case 'USERNAME':
+        case 'username':
             console.log('Go and get me some USERNAME data mate');
             res.send(data.USERNAME);
             break;   
-        case 'linked_service' || 'LINKED_SERVICE' || 'linkedservice' || 'LinkedService' || 'linkedService':
+        case 'linked_service':
+        case 'LINKED_SERVICE':
+        case 'linkedservice':
+        case 'LinkedService':
+        case 'linkedService':
             console.log('Go and get me some Linked Services  data mate');
             res.send(data.LINKED_SERVICES);
             break;   
