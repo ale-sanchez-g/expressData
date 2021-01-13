@@ -35,7 +35,11 @@ app.post('/', function ( req, res ) {
         case 'USERNAME' || 'username':
             console.log('Go and get me some USERNAME data mate');
             res.send(data.USERNAME);
-            break;            
+            break;   
+        case 'linked_service' || 'LINKED_SERVICE' || 'linkedservice' || 'LinkedService' || 'linkedService':
+            console.log('Go and get me some Linked Services  data mate');
+            res.send(data.LINKED_SERVICES);
+            break;   
         default:
             res.send(slackMardown);
       }
