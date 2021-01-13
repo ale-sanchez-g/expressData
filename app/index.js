@@ -37,6 +37,7 @@ app.post('/', function ( req, res ) {
             res.send(data.USERNAME);
             break;            
         default:
+            console.log('Go and get me the FULL DATA LIST mate');
             res.send(slackMardown);
       }
 })
